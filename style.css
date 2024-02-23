@@ -36,13 +36,6 @@ header {
     transition: all .55s ease;
 }
 
-.navlist :hover {
-    color: white;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: white;
-}
-
 .navlist a {
     display: inline-block; 
     color: white;
@@ -89,7 +82,7 @@ section {
 }
 
 .hero-text h1{
-    font-size: 70px;
+    font-size: 65px;
     line-height: 1;
     color: white;
     margin: 0 0 45px;
@@ -282,4 +275,16 @@ section {
         width: 100%;
         height: auto;
     }
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #46C2CB 10%, #0174BE 29.53%, #00337C 70.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
