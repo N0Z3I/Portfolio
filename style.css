@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+body { 
+    background: linear-gradient(245.59deg, #46C2CB 10%, #0174BE 29.53%, #00337C 70.52%);
+}
+
 header {
     position: fixed;
     right: 0;
