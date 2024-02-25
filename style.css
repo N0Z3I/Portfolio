@@ -443,4 +443,87 @@ nav {
     text-align: center;
 }
 
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 45px;
+    width: 45px;
+  }
 
+.navlists {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    margin-right: 40px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    justify-content: center;
+}
+
+.navlists a{
+    display: flex;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlists a:hover {
+    border-bottom: 2px solid white;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+s {
+    justify-content: center;
+    align-items: center;
+}
