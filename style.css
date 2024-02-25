@@ -8,8 +8,12 @@
 }
 
 body { 
-    background: linear-gradient(245.59deg, #46C2CB 10%, #0174BE 29.53%, #00337C 70.52%);
+    background: #00337C;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 header {
     position: fixed;
@@ -29,6 +33,10 @@ header {
     font-weight: 700;
     color: white;
 }
+
+.logo:hover {
+    cursor: default;
+  }
 
 .navlist {
     display: flex;
@@ -66,7 +74,7 @@ header {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #46C2CB 10%, #0174BE 29.53%, #00337C 70.52%);
+    background: #00337C;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -281,14 +289,96 @@ section {
     }
 }
 
-.about {
+.abouts {
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #46C2CB 10%, #0174BE 29.53%, #00337C 70.52%);
+    background: #00337C;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+}
+
+.heros-img img{
+    border-radius: 10%;
+    width: 500px;
+    height: auto;
+}
+
+.experiences {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #00337C;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+.project {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #00337C;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.contacts {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #00337C;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+article {
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.details-container {
+    display: flexs;
+    padding: 0.5rem;
+    flex: 1;
+    width: 1000px;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+b {
+    color: rgb(85, 85, 85);
+    font-weight: lighter
 }
