@@ -382,3 +382,65 @@ b {
     color: rgb(85, 85, 85);
     font-weight: lighter
 }
+
+.projects-img img {
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    background: #5F85DB;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+button:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+button1 {
+    display: inline-block;
+    color: white;
+    background: #5F85DB;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    margin-left: 10px;
+}
+
+button1:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+nav {
+    display: block;
+    padding: 0.5rem;
+    flex: 1;
+    background: white;
+    height: 220px;
+    width: 420px;
+    border-radius: 10px;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+
