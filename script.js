@@ -23,3 +23,4 @@ sr.reveal('.scroll-down',{delay:500, origin:'right'});
 sr.reveal('.title',{delay:200, origin:'top'});
 sr.reveal('.section__text__p1',{delay:200, origin:'top'});
 sr.reveal('.contact-info-upper-container',{delay:450, origin:'top'});
+sr.reveal('.experience-details-container',{delay:450, origin:'top'});

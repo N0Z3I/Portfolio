@@ -368,11 +368,21 @@ article {
     gap: 0.5rem;
 }
 
-.details-container {
+.details-containers {
     display: flexs;
     padding: 0.5rem;
     flex: 1;
     width: 1000px;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -394,6 +404,37 @@ article {
 b {
     color: rgb(85, 85, 85);
     font-weight: lighter
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.project-img {
+    border-radius: 10px;
+    width: 350px;
+    height: 177px;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
 }
 
 #contact {
@@ -497,4 +538,45 @@ footer s {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.about-containers {
+    display: flex;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    background: white;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+button:hover {
+    transform: translateX(8px);
+}
+
+buttons {
+    display: inline-block;
+    color: white;
+    background: white;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    margin-left: 10px;
+}
+
+buttons:hover {
+    transform: translateX(8px);
 }
