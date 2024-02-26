@@ -524,8 +524,17 @@ buttons:hover {
         text-align: center;
     }
 
+    .heros-img {
+        text-align: center;
+    }
+
     .hero-img img {
         width: 560px;
+        height: auto;
+    }
+
+    .hero-imgs img {
+        width: 100%;
         height: auto;
     }
 
@@ -576,6 +585,10 @@ buttons:hover {
 
 @media (max-width: 680px) {
     .hero-img img {
+        width: 100%;
+        height: auto;
+    }
+    .hero-imgs img {
         width: 100%;
         height: auto;
     }
